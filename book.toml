@@ -1,0 +1,34 @@
+[book]
+authors = ["John Philip"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Rust Bytes Challenges"
+description = "A collection of Rust Bytes weekly coding challenges"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+smart-punctuation = true
+mathjax-support = false
+copy-fonts = true
+no-section-label = false
+git-repository-url = "https://github.com/rust-bytes/weekly-challenges"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/rust-bytes/weekly-challenges/edit/main/guide/{path}"
+site-url = "/weekly-challenges/"
+cname = "weekly-challenges.rs"
+input-404 = "not-found.md"
+
+[output.epub]
+title = "Rust Bytes Challenges (EPUB)"
+author = "John Philip"
+optional = true
+
+[output.pdf]
+title = "Rust Bytes Challenges (PDF)"
+author = "John Philip"
+optional = true
+
+[output.html.search]
+limit-results = 15

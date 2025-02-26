@@ -22,8 +22,8 @@ Whether you're a seasoned Rustacean or just getting started with Rust, you are m
 
 This guide is maintained and updated by the team behind Rust Bytes.
 
-- **John Philip**: Software Dev/ Writer
-- **Elley Duhe**: Senior Writer/Editor
+- **John Philip**. Software Dev/ Writer
+- **Elley Duhe**. Senior Writer/Editor
 
 
 ### Support Rust Bytes
@@ -36,4 +36,4 @@ You're Rust Bytes biggest fans, and we love to see it! Here’s how you can help
 - ☕️ Buy us a [coffee](https://buymeacoffee.com/rustbytes) to support our editors!
 
 
-We hope this collection inspires you to keep learning and practicing, and ultimately become a better *Rustacean*.
+We hope this collection inspires you to keep learning and practicing, and ultimately become a better Rustacean.

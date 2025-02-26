@@ -5,4 +5,7 @@
   - [Challenge 1](./challenges/challenge-01.md)
   - [Challenge 2](./challenges/challenge-02.md)
   - [Challenge 3](./challenges/challenge-03.md)
+  - [Challenge 4](./challenges/challenge-04.md)
+  - [Challenge 5](./challenges/challenge-05.md)
+  - [Challenge 6](./challenges/challenge-06.md)
 - [Resources](./resources.md)

@@ -8,4 +8,8 @@
   - [Challenge 4](./challenges/challenge-04.md)
   - [Challenge 5](./challenges/challenge-05.md)
   - [Challenge 6](./challenges/challenge-06.md)
+  - [Challenge 7](./challenges/challenge-07.md)
+  - [Challenge 8](./challenges/challenge-08.md)
+  - [Challenge 9](./challenges/challenge-09.md)
+  - [Challenge 10](./challenges/challenge-10.md)
 - [Resources](./resources.md)

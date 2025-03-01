@@ -7,12 +7,12 @@ Write encode and decode functions for the GA-DE-RY-PO-LU-KI substitution cypher,
 ```rust
 fn encode(text: &str) -> String {
     // your implementation goes here
-    // dont touch the code in the main function below
+    // don't touch the code in the main function below
 }
 
 fn decode(s: &str) -> String {
     // your implementation goes here
-    // dont touch the code in the main function below
+    // don't touch the code in the main function below
 }
 
 fn main() {

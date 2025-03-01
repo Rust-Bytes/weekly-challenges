@@ -2,9 +2,9 @@
 
 Welcome to Rust Bytes Challenges, a curated collection of coding challenges and Rust tips originally shared in the [Rust Bytes](https://weeklyrust.substack.com/) newsletter.
 
-These challenges, tips, and exercises are designed to help rustaceans, whether beginners or seasoned Rustaceans, get comfortable reading and writing Rust.
+These challenges, tips, and exercises are designed to help rustaceans get comfortable reading and writing Rust.
 
-If you're new to Rust, I would suggest starting with the [Rust Book](https://doc.rust-lang.org/book/) or [Rustlings](https://github.com/rust-lang/rustlings) first, and then returning to these challenges. 
+If you're new to Rust, I would suggest starting with the [Rust Book](https://doc.rust-lang.org/book/) or [Rustlings](https://github.com/rust-lang/rustlings) first, and then returning to these challenges.
 
 If you have basic Rust understanding, then it's time to flex your muscles by solving these challenges and putting your skills to the test.
 
@@ -15,7 +15,9 @@ If you have basic Rust understanding, then it's time to flex your muscles by sol
 
 Every issue brings something new, ranging from coding exercises, deep dives into specific Rust topics, and our own rumblings around Rust.
 
-Whether you're a seasoned Rustacean or just getting started with Rust, you are most welcome to the newsletter. If you haven’t subscribed yet, we encourage you to join [Rust Bytes](https://weeklyrust.substack.com/).
+Whether you're a seasoned Rustacean or just getting started with Rust, you are most welcome to the newsletter. 
+
+If you haven’t subscribed yet, we encourage you to join [Rust Bytes](https://weeklyrust.substack.com/).
 
 
 ### Authors
@@ -28,7 +30,9 @@ This guide is maintained and updated by the team behind Rust Bytes.
 
 ### Support Rust Bytes
 
-You're Rust Bytes biggest fans, and we love to see it! Here’s how you can help spread the word:
+You're Rust Bytes biggest fans, and we love to see it.
+
+Here’s how you can help spread the word:
 
 - ❤️ Recommend [Rust Bytes](https://weeklyrust.substack.com/) to your friends.
 - 🤳 Connect with us on our socials: [X](https://x.com/intent/user?screen_name=rustaceans_rs), [Rustaceans Publication](https://medium.com/rustaceans).

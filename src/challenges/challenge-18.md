@@ -11,7 +11,7 @@ Flattening such nested structure into a single Option<&str> helps simplify your 
 ```rust
 
 fn main() {
-    let maybe_nested_message: Option<Option<&str>> = Some(Some("Rust Bytes is Awesome"));
+    let maybe_nested_message: Option<Option<&str>> = Some(Some("Rust Bytes is Awesome!"));
 
     // Flatten the nested option to get a single Option<&str>
     let message_option = maybe_nested_message.flatten();

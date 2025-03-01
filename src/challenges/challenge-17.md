@@ -10,7 +10,7 @@ fn main() {
 
     --y;
 
-    println!("{:}", --y, --y);
+    println!("{}{}", --y, --y);
 }
 ```
 
@@ -50,12 +50,5 @@ fn main() {
 }
 ```
 This approach is more explicit and avoids the potential confusion of unary operators.
-
-</details>
-
-
-<details>
-<summary>Click to Show/Hide Solution</summary>
-
 
 </details>

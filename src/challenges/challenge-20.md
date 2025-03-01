@@ -11,13 +11,13 @@ trait Printable {
 
 impl Printable for (u32, u32) {
     fn print_value(&self) {
-        println!("1");
+        print!("1");
     }
 }
 
 impl Printable for (i32, i32) {
     fn print_value(&self) {
-        println!("2");
+        print!("2");
     }
 }
 

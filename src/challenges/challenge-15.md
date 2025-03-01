@@ -10,7 +10,7 @@ fn main() {
     let my_vector = vec![Some("Rust"), None, Some("Bytes"), None];
 
     for element in my_vector.iter() {
-        let value = element.unwrap_or_else(|| {
+        let value = element.unwrap_or({
             println!("Value not found");
             "None"
         });
@@ -39,5 +39,6 @@ For Some values the closure is executed, but the existing value within Some is r
 
 For None values the closure is crucial. It's executed to provide a default value and often performs side effects like printing the message "Value not found!" in this example.
 
-For a deeper understanding of unwrap_or and its potential pitfalls, you can refer to the previous newsletter where we discussed the concept of safe unwrap_or usage in Rust.
+- [unwrap_or](https://doc.rust-lang.org/core/option/enum.Option.html#method.unwrap_or)
+- [unwrap_or_else](https://doc.rust-lang.org/core/option/enum.Option.html#method.unwrap_or_else)
 </details>

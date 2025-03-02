@@ -20,6 +20,13 @@ site-url = "/weekly-challenges/"
 cname = "weekly-challenges.rs"
 input-404 = "not-found.md"
 
+[output.html.playground]
+editable = true        # allows editing the source code
+copyable = true          # include the copy button for copying code snippets
+copy-js = true           # includes the JavaScript for the code editor
+line-numbers = true     # displays line numbers for editable code
+runnable = true          # displays a run button for rust code
+
 [output.epub]
 title = "Rust Bytes Challenges (EPUB)"
 author = "John Philip"

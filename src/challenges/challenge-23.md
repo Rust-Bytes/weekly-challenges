@@ -47,6 +47,9 @@ B. The program does not compile.
 C. The program is guaranteed to output 11112.
 
 
+
+### Solution 
+
 <details>
 <summary>Click to Show/Hide Solution</summary>
 
@@ -73,3 +76,5 @@ wwwwwt.f(): &&&&&T -> &&&&&&T -> &mut &&&&&T -> &&&&T. This prints 2.
 
 The challenge and solution is by David Tolnay.
 </details>
+
+

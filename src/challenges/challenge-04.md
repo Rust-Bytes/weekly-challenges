@@ -1,8 +1,6 @@
 # Challenge 4
 
-### Spot the Bug
-
-The Curious Case of the ownership.
+### Spot the Bug: The Curious Case of the ownership.
 
 Identify why the code fails to compile and suggest a way to fix it.
 
@@ -22,3 +20,11 @@ fn main() {
 }
 
 ```
+
+### Solution
+
+<details>
+
+<summary>Click to Show/Hide Solution</summary>
+
+</details>

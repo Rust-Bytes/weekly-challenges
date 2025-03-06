@@ -22,10 +22,12 @@ C. The program is guaranteed to output: []
 
 
 
+### Solution
+
 <details>
 <summary>Click to Show/Hide Solution</summary>
 
-This question demonstrates two different meanings of ...
+This question demonstrates two different meanings of ..
 
 In expression position, .. is the syntax for constructing various types of ranges. Here the expression (0, 1, ..) is a tuple with three elements, the third one having type RangeFull.
 

@@ -16,3 +16,12 @@ fn main() {
     println!("Doubled numbers: {:?}", numbers);
 }
 ```
+
+
+### Solution
+
+<details>
+
+<summary>Click to Show/Hide Solution</summary>
+
+</details>

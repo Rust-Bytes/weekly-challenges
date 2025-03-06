@@ -7,7 +7,7 @@ title = "Rust Bytes Challenges"
 description = "A collection of Rust Bytes weekly coding challenges"
 
 [output.html]
-default-theme = "light"
+default-theme = "rust"
 preferred-dark-theme = "navy"
 smart-punctuation = true
 mathjax-support = false

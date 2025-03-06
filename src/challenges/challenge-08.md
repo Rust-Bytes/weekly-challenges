@@ -16,3 +16,11 @@ fn main() {
     println!("Sum of all marks: {:?} is {}", marks, sum);
 }
 ```
+
+### Solution
+
+<details>
+
+<summary>Click to Show/Hide Solution</summary>
+
+</details>

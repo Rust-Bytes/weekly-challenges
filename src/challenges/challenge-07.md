@@ -1,8 +1,8 @@
 # Challenge 7
 
+### Spot the bug
 
 Identify why the code fails to compile and suggest a way to fix it.
-
 
 ```rust
 
@@ -24,3 +24,11 @@ impl<Key> UInt64Counter<Key> {
     }
 }
 ```
+
+### Solution
+
+<details>
+
+<summary>Click to Show/Hide Solution</summary>
+
+</details>

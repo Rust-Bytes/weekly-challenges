@@ -1,7 +1,6 @@
 # Challenge 5
 
-### Spot the Bug
-The Curious Case of the allocation.
+### Spot the Bug: The Curious Case of the allocation.
 
 Identify why the code fails to compile and suggest a way to fix it.
 
@@ -20,3 +19,11 @@ fn main() {
     println!("{:?}", node)
 }
 ```
+
+### Solution
+
+<details>
+
+<summary>Click to Show/Hide Solution</summary>
+
+</details>

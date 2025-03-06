@@ -20,3 +20,11 @@ fn main() {
     println!("{:?}", message_option.unwrap_or("Unknown"));
 }
 ```
+
+### Solution
+
+<details>
+
+<summary>Click to Show/Hide Solution</summary>
+
+</details>

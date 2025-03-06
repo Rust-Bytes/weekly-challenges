@@ -11,13 +11,18 @@ If you have basic Rust understanding, then it's time to flex your muscles by sol
 
 ### About Rust Bytes
 
-[Rust Bytes](https://weeklyrust.substack.com/) is a bi-weekly free newsletter dedicated to the Rust programming language, highlighting the best curated articles, guides, talks, podcast, videos, and open-source crates. 
+[Rust Bytes](https://weeklyrust.substack.com/) is a curated bi-weekly newsletter keeping you informed about all things noteworthy in the world of The Rust Programming Language.
 
-Every issue brings something new, ranging from coding exercises, deep dives into specific Rust topics, and our own rumblings around Rust.
+Expect to receive it in your inbox once a week: Mondays - all by 0:10 AM!
 
-Whether you're a seasoned Rustacean or just getting started with Rust, you are most welcome to the newsletter. 
+Here’s what’s in it for you:
 
-If you haven’t subscribed yet, we encourage you to join [Rust Bytes](https://weeklyrust.substack.com/).
+- Main discussion on a key Rust topic.
+- Rust Challenge/Tip to test your Rust skills.
+- Project Spotlight to showcase a remarkable open-source project written in Rust. This could be a crate, or tool pushing the boundaries of the language.
+- Ten (10) best handpicked links to articles, talks, podcasts and more.
+
+You can join [Rust Bytes](https://weeklyrust.substack.com/).
 
 
 ### Authors
@@ -36,8 +41,8 @@ Here’s how you can help spread the word:
 
 - ❤️ Recommend [Rust Bytes](https://weeklyrust.substack.com/) to your friends.
 - 🤳 Connect with us on our socials: [X](https://x.com/intent/user?screen_name=rustaceans_rs), [Rustaceans Publication](https://medium.com/rustaceans).
-- 📨 Email us at [rustaceanseditors@gmail.com](mailto:rustaceanseditors@gmail.com) with feedback or ideas.
-- ☕️ Buy us a [coffee](https://buymeacoffee.com/rustbytes) to support our editors!
+- 📨 Email us at [rustaceanseditors@gmail.com](mailto:rustaceanseditors@gmail.com) for sponsorships, feedback or ideas.
+- ☕️ Buy us a [coffee](https://buymeacoffee.com/rustbytes) to support our editors.
 
 
 We hope this collection inspires you to keep learning and practicing, and ultimately become a better Rustacean.

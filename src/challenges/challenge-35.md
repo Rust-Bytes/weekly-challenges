@@ -66,6 +66,7 @@ fn main() {
 ```
 
 
+### Solution
 
 <details>
 <summary>Click to Show/Hide Solution</summary>

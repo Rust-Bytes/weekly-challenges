@@ -30,3 +30,11 @@ fn main() {
     println!("Addition result: {}", result);
 }
 ```
+
+### Solution
+
+<details>
+
+<summary>Click to Show/Hide Solution</summary>
+
+</details>

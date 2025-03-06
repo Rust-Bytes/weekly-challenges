@@ -24,3 +24,11 @@ fn main() {
     my_traint.print();
 }
 ```
+
+### Solution
+
+<details>
+
+<summary>Click to Show/Hide Solition</summary>
+
+</details>

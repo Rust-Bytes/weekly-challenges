@@ -1,7 +1,6 @@
 # Challenge 6
 
-### Spot the Bug
-Iterator Sum Mystery.
+### Spot the Bug: Iterator Sum Mystery.
 
 Identify why the code fails to compile and suggest a way to fix it
 
@@ -14,3 +13,11 @@ fn main() {
     println!("Sum {}", sum)
 }
 ```
+
+### Solution
+
+<details>
+
+<summary>Click to Show/Hide Solution</summary>
+
+</details>

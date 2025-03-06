@@ -26,3 +26,12 @@ fn main() {
     println!("Time elapsed: {:?}", elapsed);
 }
 ```
+
+
+### Solution
+
+<details>
+
+<summary>Click to Show/Hide Solution</summary>
+
+</details>

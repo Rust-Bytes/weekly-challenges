@@ -20,6 +20,7 @@ B. The program outputs: 44
 
 C. The program outputs: 66
 
+### Solution
 
 <details>
 <summary>Click to Show/Hide Solution</summary>

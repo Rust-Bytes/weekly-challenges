@@ -15,3 +15,11 @@ fn main() {
     println!("{}", rust_bytes_ref);
 }
 ```
+
+### Solution
+
+<details>
+
+<summary>Click to Show/Hide Solution</summary>
+
+</details>

@@ -20,3 +20,12 @@ Which of the following is the correct output of the code?
 - [ ] **B.** [1, 2, 3, 2, 2]  
 - [ ] **C.** [1, 2, 3, 0, 0]
 
+
+
+### Solution
+
+<details>
+
+<summary>Click to Show/Hide Solution</summary>
+
+</details>

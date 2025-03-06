@@ -34,6 +34,8 @@ B. The program outputs: 22
 C. The program outputs: 11
 
 
+### Solution
+
 <details>
 <summary>Click to Show/Hide Solution</summary>
 

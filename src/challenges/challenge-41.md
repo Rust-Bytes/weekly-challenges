@@ -17,4 +17,10 @@ You can download the CSV for this challenge [here](https://github.com/Rust-Bytes
 
 ### Solution
 
+<details>
+
+<summary>Click to Show/Hide Solution</summary>
+
 You can find the solution for this challenge on [GitHub](https://github.com/Rust-Bytes/csv).
+
+</details>

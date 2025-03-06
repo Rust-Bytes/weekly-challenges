@@ -55,7 +55,7 @@ fn main() {
 ```
 
 
-### Rust Solution
+### Solution
 
 <details>
 <summary>Click to Show/Hide Solution</summary>

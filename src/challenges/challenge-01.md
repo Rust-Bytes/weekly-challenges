@@ -31,4 +31,13 @@ fn main() {
 
 <summary>Click to Show/Hide Solition</summary>
 
+Explanation:
+
+The code fails to compile because MyTrait is a trait object, and trait objects cannot be sized at compile time. Therefore, they must be used behind a reference (e.g., &dyn MyTrait) or a pointer (e.g., Box<dyn MyTrait>). 
+
+
+Solution: 
+
+To fix this, either change MyTrait to Box<dyn MyTrait> in the main function, or create a reference to MyStruct like let my_trait: &dyn MyTrait = &MyStruct;.
+
 </details>

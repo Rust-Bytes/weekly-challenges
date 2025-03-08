@@ -58,7 +58,9 @@ C. The program is guaranteed to output: 111222
 
 The Reference describes Rust's method lookup order. The relevant paragraph is:
 
-Obtain [the candidate receiver type] by repeatedly dereferencing the receiver expression's type, adding each type encountered to the list, then finally attempting an unsized coercion at the end, and adding the result type if that is successful. Then, for each candidate T, add &T and &mut T to the list immediately after T.
+Obtain [the candidate receiver type] by repeatedly dereferencing the receiver expression's type, adding each type encountered to the list, then finally attempting an unsized coercion at the end, and adding the result type if that is successful. 
+
+Then, for each candidate T, add &T and &mut T to the list immediately after T.
 
 Applying these rules to the given examples, we have:
 

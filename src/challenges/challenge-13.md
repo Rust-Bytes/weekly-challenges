@@ -16,9 +16,9 @@ fn main() {
 
 Which of the following is the correct output of the code?
 
-- [ ] **A.** [1, 2, 3, 5, 5]  
-- [ ] **B.** [1, 2, 3, 2, 2]  
-- [ ] **C.** [1, 2, 3, 0, 0]
+  **A.** [1, 2, 3, 5, 5]  
+  **B.** [1, 2, 3, 2, 2]  
+  **C.** [1, 2, 3, 0, 0]
 
 
 

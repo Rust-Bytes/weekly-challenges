@@ -19,8 +19,6 @@ edit-url-template = "https://github.com/rust-bytes/weekly-challenges/edit/main/g
 site-url = "/weekly-challenges/"
 cname = "weekly-challenges.rs"
 input-404 = "not-found.md"
-additional-css = ["theme/pagetoc.css"]
-additional-js = ["theme/pagetoc.js"]
 
 [output.html.playground]
 editable = true        # allows editing the source code
@@ -28,13 +26,6 @@ copyable = true          # include the copy button for copying code snippets
 copy-js = true           # includes the JavaScript for the code editor
 line-numbers = true     # displays line numbers for editable code
 runnable = true          # displays a run button for rust code
-
-[preprocessor.theme]
-pagetoc = false
-pagetoc-width = "12%"
-content-max-width = "82%"
-page-padding = "30px"
-sidebar-width = "220px"
 
 [output.epub]
 title = "Rust Bytes Challenges (EPUB)"

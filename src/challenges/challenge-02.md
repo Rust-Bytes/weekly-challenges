@@ -16,8 +16,8 @@ pub fn greater_of(first: &str, second: &str) -> &str {
 }
 
 fn main() {
-    let first = "weekly";
-    let second = "challenges";
+    let first = "Rust";
+    let second = "Bytes";
 
     println!("{}", greater_of(first, second));
 }

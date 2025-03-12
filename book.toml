@@ -36,6 +36,7 @@ optional = true
 [output.pdf]
 title = "Rust_Bytes_Challenges_(PDF)"
 author = "John Philip"
+optional = true
 
 [output.html.print]
 enable = true

@@ -13,7 +13,7 @@ For example:
 - Input: 'Self-Contained Underwater Breathing Apparatus' → Output: 'SCUBA'
 - Input: 'Random Access Memory' → Output: 'RAM'
 
-```rust
+```rust,editable
 pub fn abbreviate(word: &str) -> String {
     // your implementation goes here
     // don't touch the code in the main function below
@@ -44,7 +44,6 @@ fn main() {
     );
 }
 ```
-
 
 ### Solution
 

@@ -2,11 +2,11 @@
 
 ### Rust Challenge: Calculate Hamming Distance
 
-Write a function `hamming_distance` that calculates the Hamming Distance between two DNA strands (strings of C, A, G, T). 
+Write a function `hamming_distance` that calculates the Hamming Distance between two DNA strands (strings of C, A, G, T).
 
 The Hamming Distance is the number of positions where the characters differ.
 
-```rust
+```rust,editable
 fn hamming_distance(dna1: &str, dna2: &str) -> Result<usize, &'static str> {
     // your implementation goes here
     // don't touch the code in the main function below
@@ -101,7 +101,6 @@ fn main() {
 
 ```
 
-
 ### Solution
 
 <details>
@@ -117,4 +116,5 @@ fn hamming_distance(dna1: &str, dna2: &str) -> Result<usize, &'static str> {
 }
 
 ```
+
 </details>

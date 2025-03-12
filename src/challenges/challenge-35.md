@@ -1,15 +1,12 @@
 # Challenge 35
 
-
 ### Rust Challenge: Simple Linked List for Task List
 
-Implement a singly linked list for a to-do application where each task is a number (task ID). 
+Implement a singly linked list for a to-do application where each task is a number (task ID).
 
 Create the list from a range of numbers and add a method to reverse the list to process tasks in the opposite order.
 
-
-
-```rust
+```rust,editable
 
 #[derive(Clone)]
 struct Node {
@@ -64,7 +61,6 @@ fn main() {
 }
 
 ```
-
 
 ### Solution
 
@@ -122,4 +118,5 @@ impl TaskList {
     }
 }
 ```
+
 </details>

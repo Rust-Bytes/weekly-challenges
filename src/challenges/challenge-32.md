@@ -1,13 +1,12 @@
 # Challenge 32
 
-
 ### Rust Challenge
 
 Given a list of string slices, write a function `count_a` that counts how many occurrences of the letter `a` (case-sensitive) appear across all the strings in the list.
 
 You should return the total count of `a`s found.
 
-```rust
+```rust,editable
 
 fn count_a(strings: Vec<&str>) -> usize {
     // your implementation goes here
@@ -43,13 +42,10 @@ fn main() {
 
 ```
 
-
-
 ### Solution
 
 <details>
 <summary>Click to Show/Hide Solution</summary>
-
 
 ```rust
 

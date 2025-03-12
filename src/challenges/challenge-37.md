@@ -6,7 +6,7 @@ Write a function `transpose` that takes a 2D vector (matrix) of integers and ret
 
 Handle non-square matrices and empty matrices.
 
-```rust
+```rust,editable
 fn transpose(matrix: &Vec<Vec<u32>>) -> Result<Vec<Vec<u32>>, String> {
     // your implementation goes here
     // don't touch the code in the main function below
@@ -37,9 +37,7 @@ fn main() {
 }
 ```
 
-
 ### Solution
-
 
 <details>
 <summary>Click to Show/Hide Solution</summary>
@@ -64,4 +62,5 @@ fn transpose(matrix: &Vec<Vec<u32>>) -> Result<Vec<Vec<u32>>, String> {
     Ok(result)
 }
 ```
+
 </details>

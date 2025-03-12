@@ -2,12 +2,11 @@
 
 ### Rust Challenge: Pathfinding in a Grid
 
-Write a function `shortest_path` using BFS to find the shortest path length from the top-left (0,0) to the bottom-right (n-1,m-1) in a 2D grid. 
+Write a function `shortest_path` using BFS to find the shortest path length from the top-left (0,0) to the bottom-right (n-1,m-1) in a 2D grid.
 
 The grid uses 0 for empty spaces and 1 for walls. Move only up, down, left, or right (no diagonals), and don't pass through walls.
 
-
-```rust
+```rust,editable
 fn shortest_path(grid: Vec<Vec<i32>>) -> Option<usize> {
     // your implementation goes here
     // don't touch the code in the main function below
@@ -58,45 +57,44 @@ fn main() {
 
 ### Solution
 
-
 <details>
 <summary>Click to Show/Hide Solution</summary>
 
 ```rust
 fn shortest_path(grid: Vec<Vec<i32>>) -> Option<usize> {
     use std::collections::VecDeque;
-    
+
     if grid.is_empty() || grid[0].is_empty() {
         return None;
     }
-    
+
     let rows = grid.len();
     let cols = grid[0].len();
-    
+
     // Check if start or end is a wall
     if grid[0][0] == 1 || grid[rows - 1][cols - 1] == 1 {
         return None;
     }
-    
+
     let mut queue = VecDeque::new();
     let mut visited = vec![vec![false; cols]; rows];
     let mut distances = vec![vec![usize::MAX; cols]; rows];
-    
+
     queue.push_back((0, 0));
     visited[0][0] = true;
     distances[0][0] = 0;
-    
+
     let directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]; // right, down, left, up
-    
+
     while let Some((r, c)) = queue.pop_front() {
         if r == rows - 1 && c == cols - 1 {
             return Some(distances[r][c]);
         }
-        
+
         for &(dr, dc) in &directions {
             let new_r = (r as i32 + dr) as usize;
             let new_c = (c as i32 + dc) as usize;
-            
+
             if new_r < rows && new_c < cols && !visited[new_r][new_c] && grid[new_r][new_c] == 0 {
                 queue.push_back((new_r, new_c));
                 visited[new_r][new_c] = true;
@@ -104,8 +102,9 @@ fn shortest_path(grid: Vec<Vec<i32>>) -> Option<usize> {
             }
         }
     }
-    
+
     None
 }
 ```
+
 </details>

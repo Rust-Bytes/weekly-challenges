@@ -27,15 +27,18 @@ copy-js = true           # includes the JavaScript for the code editor
 line-numbers = true     # displays line numbers for editable code
 runnable = true          # displays a run button for rust code
 
+
 [output.epub]
 title = "Rust Bytes Challenges (EPUB)"
 author = "John Philip"
 optional = true
 
 [output.pdf]
-title = "Rust Bytes Challenges (PDF)"
+title = "Rust_Bytes_Challenges_(PDF)"
 author = "John Philip"
-optional = true
+
+[output.html.print]
+enable = true
 
 [output.html.search]
 limit-results = 15

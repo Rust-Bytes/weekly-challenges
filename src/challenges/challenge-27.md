@@ -2,11 +2,11 @@
 
 ### Rust Challenge
 
-Given two strings, `a` and `b`, return a string of the form short+long+short, with the shorter string on the outside and the longer string on the inside. 
+Given two strings, `a` and `b`, return a string of the form short+long+short, with the shorter string on the outside and the longer string on the inside.
 
 The strings will not be the same length, but they may be empty ( zero length ).
 
-```rust
+```rust,editable
 fn short_long_short(a: &str, b: &str) -> String {
     // your implementation goes here
     // dont touch the code in the main function below
@@ -49,7 +49,6 @@ fn main() {
     println!("Test 5 passed: short_long_short(\"45\", \"1\") = '{}'", result5);
 }
 ```
-
 
 ### Solution
 

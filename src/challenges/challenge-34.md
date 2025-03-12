@@ -2,11 +2,11 @@
 
 ### Rust Challenge: ISBN-10 Validation
 
-Write a function `is_valid_isbn10` that checks if a given string is a valid ISBN-10. 
+Write a function `is_valid_isbn10` that checks if a given string is a valid ISBN-10.
 
 An ISBN-10 is 9 digits (0-9) plus a check character (0-9 or 'X' for 10), optionally with hyphens. Validate it using the formula: `(d₁ * 10 + d₂ * 9 + d₃ * 8 + d₄ * 7 + d₅ * 6 + d₆ * 5 + d₇ * 4 + d₈ * 3 + d₉ * 2 + d₁₀ * 1) mod 11 == 0`
 
-```rust
+```rust,editable
 fn is_valid_isbn10(isbn: &str) -> bool {
     // your implementation goes here
     // don't touch the code in the main function below
@@ -28,7 +28,6 @@ fn main() {
     println!("Test 2 passed: is_valid_isbn10(\"3-598-21507-X\") = true");
 }
 ```
-
 
 ### Solution
 
@@ -57,4 +56,5 @@ fn is_valid_isbn10(isbn: &str) -> bool {
     sum % 11 == 0
 }
 ```
+
 </details>

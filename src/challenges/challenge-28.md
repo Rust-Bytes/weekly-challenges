@@ -4,7 +4,7 @@
 
 Write encode and decode functions for the GA-DE-RY-PO-LU-KI substitution cypher, where letters are swapped based on the key "GA-DE-RY-PO-LU-KI" (e.g., G↔A, D↔E, etc.), case-sensitively, leaving unmapped characters unchanged.
 
-```rust
+```rust,editable
 fn encode(text: &str) -> String {
     // your implementation goes here
     // don't touch the code in the main function below
@@ -85,4 +85,5 @@ fn decode(text: &str) -> String {
     encode(text) // Since the substitution is symmetric, decode is the same as encode
 }
 ```
+
 </details>

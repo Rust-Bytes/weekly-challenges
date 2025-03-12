@@ -2,11 +2,11 @@
 
 ### Rust Challenge: Atbash Cipher
 
-Implement the Atbash cipher, a substitution cipher that maps each letter to its reverse in the alphabet (a→z, b→y, ..., z→a). 
+Implement the Atbash cipher, a substitution cipher that maps each letter to its reverse in the alphabet (a→z, b→y, ..., z→a).
 
 Encode text in lowercase, group letters in blocks of 5 (excluding numbers and punctuation), and decode back to the original text.
 
-```rust
+```rust,editable
 fn encode(plain: &str) -> String {
     // your implementation goes here
     // don't touch the code in the main function below
@@ -49,9 +49,7 @@ fn main() {
 
 ```
 
-
 ### Solution
-
 
 <details>
 <summary>Click to Show/Hide Solution</summary>
@@ -95,4 +93,5 @@ fn decode(ciphered: &str) -> String {
 }
 
 ```
+
 </details>

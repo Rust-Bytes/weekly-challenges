@@ -4,7 +4,7 @@
 
 Write a function `is_valid_ip` that will verfify valid IPv4 addresses in dot-decimal format. IPs should be considered valid if they consist of four octets, with values between 0 and 255, inclusive.
 
-```rust
+```rust,editable
 fn is_valid_ip(ip: &str) -> bool {
     // your implementation goes here
     // dont touch the code in the main function below
@@ -83,9 +83,6 @@ fn main() {
 }
 ```
 
-
-
-
 ### Solution
 
 <details>
@@ -113,7 +110,7 @@ fn is_valid_ip(ip: &str) -> bool {
 }
 ```
 
-or 
+or
 
 ```rust
 
@@ -126,4 +123,5 @@ fn is_valid_ipv4(ip: &str) -> bool {
     }
 }
 ```
+
 </details>

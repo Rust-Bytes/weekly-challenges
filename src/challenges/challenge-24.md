@@ -1,11 +1,10 @@
 # Challenge 24
 
-
 ### String Reversal
 
 Write a function `string_reversal` that reverses a mutable string slice (&mut str) in-place without allocating new memory on the heap (no String::from or Vec::from).
 
-```rust
+```rust,editable
 
 fn string_reversal(s: &mut str) {
     // your implementation goes here
@@ -63,7 +62,6 @@ fn main() {
 }
 ```
 
-
 ### Solution
 
 <details>
@@ -73,7 +71,7 @@ fn main() {
 fn string_reversal(s: &mut str) {
     let bytes = unsafe { s.as_bytes_mut() };
     let (mut left, mut right) = (0, bytes.len().saturating_sub(1));
-    
+
     while left < right {
         bytes.swap(left, right);
         left += 1;

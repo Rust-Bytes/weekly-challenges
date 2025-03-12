@@ -4,7 +4,7 @@
 
 Write a function `has_unique_chars` that checks if a string has all unique characters (case-sensitive). Ignore spaces and special characters, focusing only on ASCII alphanumeric characters.
 
-```rust
+```rust,editable
 
 use std::collections::HashSet;
 
@@ -93,8 +93,6 @@ fn main() {
 }
 ```
 
-
-
 ### Solution
 
 <details>
@@ -119,4 +117,5 @@ pub fn has_unique_chars(input: &str) -> bool {
     true
 }
 ```
+
 </details>

@@ -1,7 +1,6 @@
 [book]
 authors = ["John Philip"]
 language = "en"
-multilingual = false
 src = "src"
 title = "Rust Bytes Challenges"
 description = "A collection of Rust Bytes weekly coding challenges"

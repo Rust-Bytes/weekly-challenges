@@ -22,7 +22,7 @@ You’ll find some Rust tips here and there that might impress you or prove genu
 
 ### Challenges Timeline
 
-This collection currently includes challenges from the period **December 18, 2023,** to **February 24, 2025**.
+This collection currently includes challenges from the period **December 18, 2023,** to **May 19, 2025**.
 
 As new challenges are released in each newsletter issue, they will be added to this collection.
 

@@ -32,6 +32,8 @@ This guide is maintained and updated by the team behind Rust Bytes.
 - **John Philip**. Software Dev/ Writer
 - **Elley Duhe**. Senior Writer/Editor
 
+And huge thanks to our contributors: @zjp-CN, and @szabgab who made this project a success.
+
 ### Support Rust Bytes
 
 You're Rust Bytes biggest fans, and we love to see it.

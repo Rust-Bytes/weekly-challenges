@@ -66,4 +66,5 @@
   - [Challenge 62](./challenges/challenge-62.md)
   - [Challenge 63](./challenges/challenge-63.md)
   - [Challenge 64](./challenges/challenge-64.md)
+  - [Challenge 65](./challenges/challenge-65.md)
 - [Resources](./resources.md)

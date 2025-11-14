@@ -20,6 +20,38 @@ assert_eq!(compress_string("aabbaa"), "a2b2a2");
 
 pub fn compress_string(input: &str) -> String {
     // TODO: Implement your logic here
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_basic() {
+        assert_eq!(compress_string("aaabbc"), "a3b2c1");
+        assert_eq!(compress_string("abcd"), "a1b1c1d1");
+    }
+
+    #[test]
+    fn test_edge_cases() {
+        assert_eq!(compress_string(""), "");
+        assert_eq!(compress_string("a"), "a1");
+        assert_eq!(compress_string("zzzzzz"), "z6");
+        assert_eq!(compress_string("aabbaa"), "a2b2a2");
+    }
+}
+```
+
+### Solution
+
+<details>
+<summary>Click to Show/Hide Solution</summary>
+
+```rust
+// Rust Bytes Challenge Issue #87 String Compression
+
+pub fn compress_string(input: &str) -> String {
+    // TODO: Implement your logic here
     let mut compressed = String::new();
     let chars = input.chars().peekable();
 
@@ -56,15 +88,6 @@ mod tests {
         assert_eq!(compress_string("aabbaa"), "a2b2a2");
     }
 }
-```
-
-### Solution
-
-<details>
-    <summary>Click to Show/Hide Solution</summary>
-
-```rust
-
 ```
 
 </details>

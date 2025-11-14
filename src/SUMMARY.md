@@ -71,4 +71,5 @@
   - [Challenge 67](./challenges/challenge-67.md)
   - [Challenge 68](./challenges/challenge-68.md)
   - [Challenge 69](./challenges/challenge-69.md)
+  - [Challenge 70](./challenges/challenge-70.md)
 - [Resources](./resources.md)

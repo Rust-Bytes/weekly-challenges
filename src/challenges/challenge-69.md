@@ -53,7 +53,7 @@ mod tests {
 pub fn compress_string(input: &str) -> String {
     // TODO: Implement your logic here
     let mut compressed = String::new();
-    let chars = input.chars().peekable();
+    let mut chars = input.chars().peekable();
 
     while let Some(current) = chars.next() {
         let mut count = 1;

@@ -91,7 +91,7 @@ pub fn mirror_index(arr: &[i32]) -> i32 {
         return -1;
     }
 
-    let center (n - 1) as isize;
+    let center = (n - 1) as isize;
     let best = candidates
         .into_iter()
         .min_by_key(|&i| ((2 * i as isize) - center).abs())

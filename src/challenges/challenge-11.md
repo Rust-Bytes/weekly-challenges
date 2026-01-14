@@ -2,7 +2,7 @@
 
 ### Spot the Bug
 
-Identify why the code fails to compile and suggest a way to fix it.
+Identify why the code crashes at runtime and suggest a way to fix it.
 
 ```rust
 

@@ -15,7 +15,6 @@ enum LinkedListNode {
 fn main() {
     let node = LinkedListNode::NonEmpty(45, LinkedListNode::NonEmpty(50, LinkedListNode::Empty));
 
-    let sum = handle.join().unwrap();
     println!("{:?}", node)
 }
 ```

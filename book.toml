@@ -9,7 +9,7 @@ description = "A collection of Rust Bytes weekly coding challenges"
 default-theme = "rust"
 preferred-dark-theme = "navy"
 smart-punctuation = true
-mathjax-support = false
+mathjax-support = true
 copy-fonts = true
 no-section-label = false
 git-repository-url = "https://github.com/rust-bytes/weekly-challenges"
@@ -28,9 +28,15 @@ runnable = true          # displays a run button for rust code
 
 
 [output.epub]
-title = "Rust Bytes Challenges (EPUB)"
-author = "John Philip"
+title = "Rust_Bytes_Challenges_(EPUB)"
+author = "John Philip and Elley Duhe"
 optional = true
+use-default-css = true
+# cover-image = "ebook-cover.png"
+no-section-label = true
+curly-quotes = true
+epub-version = 3
+footnote-backrefs = true # epub-version should be = 3
 
 [output.pdf]
 title = "Rust_Bytes_Challenges_(PDF)"

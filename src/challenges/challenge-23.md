@@ -54,29 +54,44 @@ C. The program is guaranteed to output 11112.
 <summary>Click to Show/Hide Solution</summary>
 
 Answer
-C. The program is guaranteed to output: 111222
+C. The program is guaranteed to output: 11112
 
-The Reference describes Rust's method lookup order. The relevant paragraph is:
+To understand Rust's function lookup order we will start by analyzing `&&&&T`:
 
-Obtain [the candidate receiver type] by repeatedly dereferencing the receiver expression's type, adding each type encountered to the list, then finally attempting an unsized coercion at the end, and adding the result type if that is successful. 
+1. Rust will build a deref chain: `&&&&T` -> `&&&T` -> `&&T` -> `&T` -> `T`.
+2. For each step `U` in the chain it will try to find an implemented function in this order:
+    - `U` (direct-match)
+    - `&U` (auto-ref)
+    - `&mut U` (auto-ref-mut)
 
-Then, for each candidate T, add &T and &mut T to the list immediately after T.
+Let's walk through the program:
 
-Applying these rules to the given examples, we have:
+`T`:
+- Deref Chain: `T`
+- Step `T`:
+    - `U` = `T` -> no
+    - `&U` = `&T` -> yes (print 1)
 
-t.f(): We try to find a function f defined on the type T, but there is none. Next, we search the type &T, and find the first implementation of the Or trait, and we are done. Upon invocation, the resolved call prints 1.
+`&T`:
+- Deref Chain: `&T` -> `T`
+- Step `&T`:
+    - `U` = `&T` -> yes (print 1)
 
-wt.f(): We search for a function f defined on &T, which immediately succeeds. Upon invocation, the function prints 1.
+`&&T`: 
+- Deref Chain: `&&T` -> `&T` -> `T`
+- Step `&T`:
+    - `U` = `&T` -> yes (print 1)
 
-wwt.f(): The search order is &&T -> &&&T -> &mut &&T -> &T, and we're done. Upon invocation, the function prints 1.
+`&&&T`:
+- Deref Chain: `&&&T` -> `&&T` -> `&T` -> `T`
+- Step `&T`:
+    - `U` = `&T` -> yes (print 1)
 
-wwwt.f(): &&&T -> &&&&T. This prints 2.
+`&&&&T`:
+- Deref Chain: `&&&&T` -> `&&&T` -> `&&T` -> `&T` -> `T`
+- Step `&&&&T`:
+  - `U` = `&&&&T` -> no
+  - `&U` = `&&&&&T` -> yes (print 2)
 
-wwwwt.f(): &&&&T. This prints 2.
-
-wwwwwt.f(): &&&&&T -> &&&&&&T -> &mut &&&&&T -> &&&&T. This prints 2.
-
-The challenge and solution is by David Tolnay.
+The challenge is originally by David Tolnay.
 </details>
-
-

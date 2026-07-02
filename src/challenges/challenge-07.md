@@ -48,7 +48,7 @@ fn add(&mut self, key: Key, delta: u64) {
     *self.count_by_key.entry(key).or_default() += delta;
 }
 ```
-If we look at the `entry` method of the `HashMap`, it is defined with with a few generic type parameters and one of them is the parameter K, `K: Hash+Eq`. This parameter is the key of the HashMap. 
+If we look at the `entry` method of the `HashMap`, it is defined with a few generic type parameters and one of them is the parameter K, `K: Hash+Eq`. This parameter is the key of the HashMap. 
 
 ```rust
 impl<K, V, S> HashMap<K, V, S>

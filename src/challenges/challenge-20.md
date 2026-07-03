@@ -23,7 +23,7 @@ impl Printable for (i32, i32) {
 
 fn main() {
     (0, 0).print_value();
-    (0, 0).print_value();
+    (0, 0,).print_value();
 }
 ```
 

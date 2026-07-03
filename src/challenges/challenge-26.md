@@ -10,7 +10,7 @@ This can be useful for several reasons:
 - Integration to allow access to these variables directly in your build scripts.
 - You can avoid the need for separate `.env` files, especially in simpler projects.
 
-Here's an example usage of [env] in Cargo.toml
+Here's an example usage of `[env]` in Cargo.toml
 
 ```env
 [env]
@@ -22,6 +22,6 @@ TMPDIR = { value = "/home/tmp", force = true }
 
 # Set a relative path based on project directory
 OPENSSL_DIR = { value = "vendor/openssl", relative = true }
-This configuration keeps your environment variables within your project and integrates nicely with Cargo's build system.
-
 ```
+
+This configuration keeps your environment variables within your project and integrates nicely with Cargo's build system.

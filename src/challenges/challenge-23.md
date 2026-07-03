@@ -29,12 +29,14 @@ fn main() {
     let wwt = &&T;
     let wwwt = &&&T;
     let wwwwt = &&&&T;
+    let wwwwwt = &&&&&T;
 
     t.f();
     wt.f();
     wwt.f();
     wwwt.f();
     wwwwt.f();
+    wwwwwt.f();
 }
 
 ```
